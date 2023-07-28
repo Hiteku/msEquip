@@ -1,0 +1,44 @@
+h2 {
+  color: white;
+  text-align: center;
+}
+
+/* 將懸浮圖片容器固定在網頁的左側 */
+.floating-image-container {
+  position: fixed;
+  top: 3%;
+  left: 3%;
+  z-index: 9;
+  padding: 5px;
+}
+
+/* 將懸浮圖片設定寬度 */
+.floating-image {
+  width: 220px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  margin: 3% 5px;
+  padding: 10px 20px;
+  background: #fff;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button.active {
+  background: #cfafe4;
+  color: #fff;
+}
+
+/* 表格置中樣式 */
+.table-container {
+  display: flex;
+  justify-content: center;
+}

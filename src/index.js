@@ -7,8 +7,8 @@ import './index.css';
 const MainRoutes = () => {
   return (
     <Routes>
-      <Route path="/Hiteku" element={<EquipTable page="Hiteku" />} />
-      <Route path="/LeiLei" element={<EquipTable page="LeiLei" />} />
+      <Route exact path="/msEquip" render={() => <EquipTable page="Hiteku" />} />
+      <Route path="/msEquip/LeiLei" render={() => <EquipTable page="LeiLei" />} />
     </Routes>
   );
 };

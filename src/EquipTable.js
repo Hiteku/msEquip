@@ -30,12 +30,12 @@ const App = ({ page }) => {
           justifyContent: "center",
         }}
       >
-        {icon !== "" ? ( // 三元運算子
+        {icon !== '' ? (
           <img src={`https://hiteku.github.io/img/ms/icon/${icon}.png`} alt="Icon" />
         ) : (
-          "" // 空字串
+          '' // 空字串
         )}
-        {isHovered && hoverImage !== "" && ( // 顯示懸浮大圖片的條件同樣加入檢查
+        {isHovered && hoverImage !== '' && ( // 顯示懸浮大圖片的條件同樣加入檢查
           <div className="floating-image-container">
             <img
               src={

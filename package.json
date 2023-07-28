@@ -2,7 +2,7 @@
   "name": "ms_equip",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hiteku.github.io/msEquip",
+  "homepage": "https://hiteku.github.io/msEquip/#",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

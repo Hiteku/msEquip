@@ -3,9 +3,8 @@ import { HitekuEquip, HitekuDetail, LeiEquip } from "./data";
 import "./styles.css";
 
 const App = ({ page }) => {
-  // eslint-disable-next-line
-  const [currentPage, setCurrentPage] = useState(page || "Hiteku");
-  /*
+  /*const [currentPage, setCurrentPage] = useState(page || "Hiteku");
+  
   const handlePageChange = (page) => {
     setCurrentPage(page);
   };
@@ -40,7 +39,7 @@ const App = ({ page }) => {
           <div className="floating-image-container">
             <img
               src={
-                currentPage === "Hiteku"
+                page === "Hiteku"
                   ? `https://hiteku.fly.dev/static/assets/game/ms/detail/${hoverImage}.png`
                   : `detail/Lei/${hoverImage}.png`
               }
@@ -55,9 +54,8 @@ const App = ({ page }) => {
 
   const Table = () => {
 
-
-    const icons = currentPage === "Hiteku" ? HitekuEquip : LeiEquip;
-    const hoverImages = currentPage === "Hiteku" ? HitekuDetail : LeiEquip;
+    const icons = page === "Hiteku" ? HitekuEquip : LeiEquip;
+    const hoverImages = page === "Hiteku" ? HitekuDetail : LeiEquip;
 
     return (
       <table>
@@ -80,16 +78,16 @@ const App = ({ page }) => {
     <div className="app-container">
       {/*
       <div className="button-container">
-        <Link to="/Hiteku" className={`button ${currentPage === "Hiteku" ? "active" : ""}`} onClick={() => handlePageChange("Hiteku")}>
+        <Link to="/Hiteku" className={`button ${page === "Hiteku" ? "active" : ""}`} onClick={() => handlePageChange("Hiteku")}>
           Hiteku
         </Link>
-        <Link to="/LeiLei" className={`button ${currentPage === "LeiLei" ? "active" : ""}`} onClick={() => handlePageChange("LeiLei")}>
+        <Link to="/LeiLei" className={`button ${page === "LeiLei" ? "active" : ""}`} onClick={() => handlePageChange("LeiLei")}>
           華虎蘭
         </Link>
       </div>*/}
       <div className="table-container">
         <div>
-          <h2>{currentPage === 'Hiteku' ? 'Hiteku' : '華虎蘭'}</h2>
+          <h2>{page === 'Hiteku' ? 'Hiteku' : '華虎蘭'}</h2>
           <Table />
         </div>
       </div>

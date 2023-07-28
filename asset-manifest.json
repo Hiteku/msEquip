@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/msEquip/static/css/main.5e673fff.css",
+    "main.js": "/msEquip/static/js/main.d387d6cb.js",
+    "index.html": "/msEquip/index.html",
+    "main.5e673fff.css.map": "/msEquip/static/css/main.5e673fff.css.map",
+    "main.d387d6cb.js.map": "/msEquip/static/js/main.d387d6cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e673fff.css",
+    "static/js/main.d387d6cb.js"
+  ]
+}

@@ -8,7 +8,7 @@ const MainRoutes = () => {
   return (
     <Routes>
       <Route path="/Hiteku" element={<EquipTable page="Hiteku" />} />
-      <Route path="/LeiLei" element={<EquipTable page="LeiLei" />} />
+      <Route path="/" element={<EquipTable page="LeiLei" />} />
     </Routes>
   );
 };

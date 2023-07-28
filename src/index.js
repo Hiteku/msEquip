@@ -14,7 +14,7 @@ const MainRoutes = () => {
 };
 
 createRoot(document.getElementById("root")).render(
-  <Router>
+  <Router basename="/msEquip">
     <MainRoutes />
   </Router>
 );

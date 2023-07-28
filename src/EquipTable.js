@@ -41,7 +41,7 @@ const App = ({ page }) => {
               src={
                 page === "Hiteku"
                   ? `https://hiteku.fly.dev/static/assets/game/ms/detail/${hoverImage}.png`
-                  : `${page}/detail/Lei/${hoverImage}.png`
+                  : `${process.env.PUBLIC_URL}/detail/${page}/${hoverImage}.png`
               }
               alt="Hover Icon"
               className="floating-image"

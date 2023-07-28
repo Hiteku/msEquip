@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/msEquip/static/css/main.5e673fff.css",
-    "main.js": "/msEquip/static/js/main.0cb7648c.js",
+    "main.js": "/msEquip/static/js/main.583faa42.js",
     "index.html": "/msEquip/index.html",
     "main.5e673fff.css.map": "/msEquip/static/css/main.5e673fff.css.map",
-    "main.0cb7648c.js.map": "/msEquip/static/js/main.0cb7648c.js.map"
+    "main.583faa42.js.map": "/msEquip/static/js/main.583faa42.js.map"
   },
   "entrypoints": [
     "static/css/main.5e673fff.css",
-    "static/js/main.0cb7648c.js"
+    "static/js/main.583faa42.js"
   ]
 }

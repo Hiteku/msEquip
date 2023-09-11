@@ -8,12 +8,12 @@ export const HitekuEquip = [
 ];
 
 export const HitekuDetail = [
-    'PowerfulMagic', '', 'Hat', '', 'Badge',
-    '', '', 'Tattoo', '', 'BlackWing',
-    'Ring', 'Pendant', 'Eyewear', 'Earrings', '',
-    'BreathOfDivinityRing', 'MainArcanShadeFan', 'DragonSlayerArmor', 'Pads', 'FoxArcanShadeFan',
+    '', '', 'Hat', '', 'Badge',
+    'Fright', 'Pain', 'Sign', '', 'BlackWing',
+    'BreathOfDivinityRing', 'Pendant', 'Blindfold', 'Earrings', '',
+    'Ring', 'MainArcanShadeFan', 'DragonSlayerArmor', 'Pads', 'FoxArcanShadeFan',
     '', 'Belt', '', 'Gloves', 'Cloak',
-    '', '', 'Shoes', 'Robot', 'Heart',
+    'TimeRetrograde', '', 'Shoes', 'Robot', 'Heart',
 ];
 
 export const LeiEquip = [
